@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="left">
+        <span>CryptoTracker</span>
+      </div>
+      <div class="right">
+        <ul>
+          <li>Home</li>
+          <li>Compare</li>
+          <li>Watchlist</li>
+          <li class="active">Dashboard</li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <button class="btn item" onclick="submitData()">Grid</button>
+      <button class="btn item1" onclick="listData()">List</button>
+    </main>
+
+    <section id="section-card">
+      <!-- <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_top">
+          <div>
+            <img src="bitcoin.webp" style="width: 50px" />
+          </div>
+          <div class="spanbtn">
+            <span>BTC</span>
+            <span class="bit">Bitcoin</span>
+          </div>
+        </div>
+        <div>
+          <span class="card1">0.097%</span>
+        </div>
+        <div class="card_bottom">
+          <span class="card2">$2929292</span>
+          <p>total volume:232423223</p>
+          <p>market volume:232423223</p>
+        </div>
+      </div> -->
+    </section>
+     
+    <div class="bottom-top" id="bodydata">
+        <table id="tableData">
+           <!--  <tbody>
+                <tr>
+                    <td><img src="bitcoin.webp" / style="width: 30px;"></td>
+                    <td>
+                        <p>btc</p>
+                        <p>btc</p>
+                    </td>
+                    <td>name</td>
+                    <td>market_cap</td>
+                    <td>price_change_percentage_24h</td>
+                    <td>total_volume</td>
+                    </tr>
+            </tbody> -->
+        </table>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
